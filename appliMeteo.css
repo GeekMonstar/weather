@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background: url(sky-bg.jpg)no-repeat center;
+    background-size: cover;
+}
+header{
+    min-height: 10vh;
+    background-color: transparent;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reseach-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ville-input{
+    width: 60vw;
+    height: .6cm;
+    border: 0;
+    padding: 5px;
+}
+.ville-input:focus{
+    outline: 0;
+}
+.research-icon{
+    height: .6cm;
+    width: .6cm;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: .6cm 0 0 .6cm;
+    padding: 5px;
+}
+.research-icon svg{
+    height: 70%;
+    width: auto;
+}
+.submit-btn{
+    height: calc(0.6cm + 10px);
+    border: 0;
+    border-radius: 0 .6cm .6cm 0;
+    background-color: skyblue;
+    padding: 5px;
+}
+.error{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.389), black);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#temp-details, #coord-details{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#day-period{
+    height: 4cm;
+    width: auto;
+}
+#temp-p{
+    font-size: 52px;
+    font-weight: 900;
+    margin: 20px 0 10px 0;
+    color: whitesmoke;
+}
+#ville{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    color: whitesmoke;
+    text-align: center;
+}
+#pays {
+    font-size: 22px;
+    margin: 0 0 5px 0;
+    color: whitesmoke;
+}
+caption{
+    margin: 10px;
+    text-decoration: underline;
+}
+th{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 600;
+    text-decoration: underline;
+}
+td{
+    font-size: 22px;
+    font-weight: 500;
+    color: aliceblue;
+    max-width: 45vw;
+    margin: 15px 0;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+}
+table{
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    width: 80vw;
+    font-size: 24px;
+    text-align: left;
+    color: aliceblue;
+    font-weight: 600;
+    margin: 30px;
+}
+#initials{
+    text-align: center;
+    font-size: 25px;
+}
+#initials span{
+    font-weight: 900;
+}
